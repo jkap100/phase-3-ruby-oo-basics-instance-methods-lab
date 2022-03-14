@@ -1,0 +1,16 @@
+require 'pry'
+
+class Dog
+    def bark
+      puts "Woof!"
+    end
+
+    def sit
+        puts "The Dog is sitting"
+    end
+  end
+
+blizz = Dog.new
+blizz.bark
+blizz.sit
+
